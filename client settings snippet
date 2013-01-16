@@ -2,6 +2,6 @@
 
 [[!site-settings? &category=`` &target=`[[~[[*id]]]]`]]
 
-//If using an Area Lexicon Entry to group your Context Settings sue this snippet call
+//If using an Area Lexicon Entry to group your Context Settings use this snippet call
 
 [[!site-settings? &category=`Area Lexicon Name Goes Here` &target=`[[~[[*id]]]]`]]
