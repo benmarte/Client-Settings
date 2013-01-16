@@ -7,8 +7,11 @@ How to use:
 
 1. Create a new snippet in MODX, name it client-settings
 2. Copy the client-settings code into the snippet
-3. Create Context Settings in MODX, if you create an Area Lexicon Entry to group your settings you will need to pass the Area Lexicon Entry value as the &category parameter in the snippet call, otherwise you can leave it empty for all entries and leave the &category value empty ie: &category=``. Need to make this a default value
-4. Create a New Resource in MODX and place the snippet call with two parameters these are: &category and &target. The Category parameter is used to select your settings from an Area Lexicon Entry if you use one to group your settings. The &target parameter is used to specify the target ID of the resource you want to go to once you submit the form. The Final snippet call should look like this: [[client-settings? &category=` ` &target=`[[~[[*id]]]]`]] or [[client-settings? &category=`Area Lexicon Entry Value Goes Here` &target=`[[~[[*id]]]]`]] if using an Area Lexicon Entry.
+3. Create Context Settings in MODX
+4. Create a New Resource in MODX and place the snippet call with two parameters these are: <pre>&category</pre> and <pre>&target</pre>.
+5. The <pre>&category</pre> parameter is used to select your settings from an Area Lexicon Entry if you use one to group your settings, otherwise you can leave it empty for all context settings and leave the <pre>&category</pre> value empty ie: <pre>&category=` `</pre>. (Need to make this a default value).
+6. The <pre>&target</pre> parameter is used to specify the target ID of the resource you want to go to once you submit the form, (Need to make a default value for this to be the current ID of the page).
+7. The Final snippet call should look like this: <pre>[[client-settings? &category=` ` &target=`[[~[[*id]]]]`]]</pre> or <pre>[[client-settings? &category=`Area Lexicon Entry Value Goes Here` &target=`[[~[[*id]]]]`]]</pre> if using an Area Lexicon Entry.
 
 Things to improve or features to add.
 
