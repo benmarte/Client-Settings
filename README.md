@@ -1,7 +1,7 @@
 Client-Settings
 ===============
 
-Future MODX Extra to edit context settings via a resource on the front end
+Future MODX Extra to edit context settings via a resource on the front end, see example <a href="http://bmv-interactive.com/client-settings.html" target="_blank">here</a>
 
 How to use:
 
@@ -13,7 +13,8 @@ How to use:
 6. The Target parameter is used to specify the target ID of the resource you want to go to once you submit the form, (Need to make a default value for this to be the current ID of the page).
 7. Refer to the clients settings snippet to see the different ways to use the snippet with and without a Category value.
 
-Things to improve or features to add.
+
+<h2>Things to improve or features to add.</h2>
 
 1. Chunk templating
 2. Default values for Category and Target parameters
